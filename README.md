@@ -1,4 +1,4 @@
-# 🟣 Portfolio · Andrea Valverde
+# Portfolio · Andrea Valverde
 
 <p align="center">
   <img src="assets/banner.gif" alt="Cyberpunk Banner" width="100%">
@@ -10,7 +10,7 @@
 
 ---
 
-## 🧠 Sobre este repositorio
+## Sobre este repositorio
 
 Este repositorio contiene mi **portfolio profesional**, desarrollado como una **web en HTML, CSS y JavaScript**, donde presento mi perfil, experiencia, formación y habilidades de forma visual y clara.
 
@@ -18,7 +18,7 @@ Los **proyectos completos** se encuentran alojados en **repositorios independien
 
 ---
 
-## 🌐 Vista previa
+## Vista previa
 
 <p align="center">
   <img src="assets/preview.png" alt="Preview del currículum web" width="85%">
@@ -28,7 +28,7 @@ Los **proyectos completos** se encuentran alojados en **repositorios independien
 
 ---
 
-## 🚀 Tecnologías utilizadas
+## Tecnologías utilizadas
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nodejs,php,laravel,mysql,git" />
@@ -36,7 +36,7 @@ Los **proyectos completos** se encuentran alojados en **repositorios independien
 
 ---
 
-## 📂 Estructura del proyecto
+## Estructura del proyecto
 
 📁 portfolio  
 ├── 📄 index.html — Currículum web principal  

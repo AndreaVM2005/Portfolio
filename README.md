@@ -47,7 +47,7 @@ Los **proyectos completos** se encuentran alojados en **repositorios independien
 
 ---
 
-## 🧩 Proyectos destacados
+## Proyectos destacados
 
 Los proyectos están alojados en **GitLab** y enlazados desde el currículum web.
 
@@ -59,7 +59,7 @@ Los proyectos están alojados en **GitLab** y enlazados desde el currículum web
 
 ---
 
-## 📬 Contacto
+## Contacto
 
 Si quieres contactar conmigo o conocer más sobre mi trabajo:
 

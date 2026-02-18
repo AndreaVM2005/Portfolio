@@ -31,7 +31,7 @@ Los **proyectos completos** se encuentran alojados en **repositorios independien
 ## Tecnologías utilizadas
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nodejs,php,laravel,mysql,git" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,git" />
 </p>
 
 ---

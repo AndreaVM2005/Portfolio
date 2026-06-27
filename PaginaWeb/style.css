@@ -493,3 +493,106 @@ h1, h2, h3, .section-title {
     padding: 2rem;
     border-top: 1px solid #0ff2;
 }
+/* === FOTO DE PERFIL === */
+.profile-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.profile-image-wrapper {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    padding: 4px;
+    background: linear-gradient(135deg, #0ff, #00ff88, #0ff);
+    background-size: 300% 300%;
+    animation: gradient-spin 4s ease-in-out infinite;
+    box-shadow: 0 0 30px rgba(0, 255, 255, 0.3);
+}
+
+@keyframes gradient-spin {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.profile-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    border: 3px solid #03050b;
+    position: relative;
+    z-index: 1;
+}
+
+.profile-image-glow {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    border-radius: 50%;
+    background: radial-gradient(circle at center, rgba(0, 255, 255, 0.15), transparent 70%);
+    z-index: 0;
+    animation: pulse-glow 3s ease-in-out infinite;
+}
+
+@keyframes pulse-glow {
+    0%, 100% { opacity: 0.5; transform: scale(1); }
+    50% { opacity: 1; transform: scale(1.05); }
+}
+
+.profile-badge {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-top: 1rem;
+    background: rgba(0, 255, 255, 0.08);
+    border: 1px solid rgba(0, 255, 255, 0.25);
+    padding: 0.4rem 1.2rem;
+    border-radius: 30px;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 0.8rem;
+    color: #0ff;
+}
+
+.status-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #00ff88;
+    animation: dot-blink 1.5s ease-in-out infinite;
+}
+
+@keyframes dot-blink {
+    0%, 100% { opacity: 1; box-shadow: 0 0 8px #00ff88; }
+    50% { opacity: 0.3; box-shadow: 0 0 2px #00ff88; }
+}
+
+.status-text {
+    letter-spacing: 0.5px;
+}
+
+/* Ajuste responsive para la foto */
+@media (max-width: 768px) {
+    .profile-image-wrapper {
+        width: 140px;
+        height: 140px;
+    }
+    .profile-badge {
+        font-size: 0.7rem;
+        padding: 0.3rem 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .profile-image-wrapper {
+        width: 120px;
+        height: 120px;
+    }
+}
